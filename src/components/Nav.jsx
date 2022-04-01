@@ -18,10 +18,10 @@ const Nav = ({isDark, changeMode}) => {
                         menu
                 </i>
                 <ul id="nav-mobile" className="links">
-                    <li><a href="/#about">{links.about}</a></li>
-                    <li><a href="/#education">{links.education}</a></li>
-                    <li><a href="/#skills">{links.skills}</a></li>
-                    <li><a href="/#way">{links.way}</a></li>
+                    <li><a href="/portfolio/#about">{links.about}</a></li>
+                    <li><a href="/portfolio/#education">{links.education}</a></li>
+                    <li><a href="/portfolio/#skills">{links.skills}</a></li>
+                    <li><a href="/portfolio/#way">{links.way}</a></li>
                 </ul>
                 <div 
                     className="mode"
