@@ -13,7 +13,7 @@ export const App = () => {
     title: "Contact me",
     telegram: "https://t.me/skiff4ek",
     skype: "https://join.skype.com/invite/zlgP7dBfnegd",
-    linkedin: "www.linkedin.com/in/max-balagur",
+    linkedin: "https://www.linkedin.com/in/max-balagur/",
     email: "mailto:skiff4ek@gmail.com"
 }
 

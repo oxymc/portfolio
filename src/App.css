@@ -138,6 +138,9 @@ footer .foFlex .foFlex {
 }
 
 @media screen and (min-width: 768px) {
+  .nav-wrapper > i {
+    display: none !important;
+  }
   #nav-mobile, #nav-mobile.open {
     transition: none;
     transform: translateX(0);
