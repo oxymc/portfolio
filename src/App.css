@@ -1,38 +1,159 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header, header a, footer, footer a {
+  color: #fff;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+main {
+  background-color: rgba(255,255,255,1);
+  color: #000;
+  min-height: calc(100vh - 86px);
+}
+section:nth-child(even) {
+  background-color: rgba(0,0,0,0.085);
+}
+main.dark, header.dark #nav-mobile, header.dark #nav-mobile li a {
+  background-color: #263238;
+  color: #fff;
+  transition: .3s;
+}
+main.dark section:nth-child(even),
+main.dark img {
+  filter: grayscale(100%);
+}
+.foFlex {
   display: flex;
-  flex-direction: column;
+}
+.foGrid {
+  display: grid;
+}
+.mode {
+  cursor: pointer;
+  margin-left: auto;
+}
+#nav-mobile {
+  transform: translateX(-200%);
+  transition: .3s;
+}
+img {
+  border-radius: 50%;
+}
+.contact img, footer img {
+  width: 44px;
+  height: 44px;
+  border-radius: 0;
+}
+.contact a, footer a {
+  width: max-content;
+}
+.contact .foFlex, footer .foFlex .foFlex {
+  gap: 10px;
+  width: 100%;
+  max-width: 320px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.dark .contact img {
+  filter: invert(100%);
+}
+i {
+  transition: .3s;
+  cursor: pointer;
+}
+i:hover, a:hover {
+  opacity: 0.8;
+}
+blockquote, small {
+  color: #666;
+}
+font {
+  width: 100%;
+  display: block;
+}
+section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+h1, h2 {
+  margin-bottom: 1em;
+}
+h4 {
+  margin: 0;
+}
+.btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+footer .foFlex {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 15px;
+}
+footer img {
+  filter: invert(100%);
+  max-height: 32px;
+}
+footer .foFlex .foFlex {
+  margin: auto;
+}
+.footer-copyright {
+  padding: 40px 0;
+}
+#skills h5 {
+  font-weight: 500;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 600px) {
+  h1, h2 {
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+  #nav-mobile {
+    display: block;
+    margin-top: 56px;
+    width: calc(100% + 40px);
+    position: absolute; 
+    left: -20px;
+    top: 0;
+    background-color: rgba(255,255,255,1);
+    z-index: 2;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12),0 2px 4px -1px rgba(0,0,0,0.3);
+  }
+  #nav-mobile.open {
+    transform: translateX(0);
+  }
+  #nav-mobile li {
+    float: none;
+  }
+  #nav-mobile li a {
+    color: #000;
+  }
+  #education > div {
+    display: grid;
+    gap: 2em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #nav-mobile, #nav-mobile.open {
+    transition: none;
+    transform: translateX(0);
+    margin-left: 10px;
+  }
+  header.dark #nav-mobile, header.dark #nav-mobile li a {
+    background-color: transparent;
+    color: #fff;
+  }
+  section {
+    padding-bottom: 80px;
+  }
+  .footer-copyright {
+    padding: 80px 0;
+  }
+  #about .contact {
+    padding: 0 1em;
   }
 }
