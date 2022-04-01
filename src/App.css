@@ -80,6 +80,7 @@ section {
   padding-bottom: 40px;
 }
 h1, h2 {
+  text-transform: uppercase;
   margin-bottom: 1em;
 }
 h4 {
@@ -104,6 +105,10 @@ footer .foFlex .foFlex {
   padding: 40px 0;
 }
 #skills h5 {
+  font-weight: 500;
+}
+section#education font {
+  font-size: 18px;
   font-weight: 500;
 }
 
