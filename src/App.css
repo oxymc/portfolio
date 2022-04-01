@@ -86,6 +86,9 @@ h1, h2 {
 h4 {
   margin: 0;
 }
+#about h4 {
+  white-space: nowrap;
+}
 .btn {
   margin-top: 20px;
   margin-bottom: 20px;
