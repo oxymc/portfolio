@@ -53,7 +53,7 @@ img {
 }
 .contact .foFlex, footer .foFlex .foFlex {
   gap: 10px;
-  width: 100%;
+  width: max-content;
   max-width: 320px;
   justify-content: space-between;
   margin-top: 20px;
@@ -81,14 +81,13 @@ section {
 }
 h1, h2 {
   text-transform: uppercase;
+  white-space: nowrap;
   margin-bottom: 1em;
 }
 h4 {
   margin: 0;
 }
-#about h4 {
-  white-space: nowrap;
-}
+
 .btn {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -96,6 +95,8 @@ h4 {
 footer .foFlex {
   align-items: center;
   gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 footer img {
   filter: invert(100%);
