@@ -29,7 +29,7 @@ const Skills = () => {
                 <div className="col s12 m6">
                     <div className="section">
                         <h5>ReactJS [beginner]</h5>
-                        <p>Classes, Hooks</p>
+                        <p>Classes, Hooks, Routing</p>
                     </div>
                     <div className="divider"></div>
                 </div>

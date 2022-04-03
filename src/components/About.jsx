@@ -6,8 +6,8 @@ const About = ({social}) => {
         name: "Maxym Balagur",
         position: "Frontend Web Developer",
         photoPath: "./photo.jpg",
-        aboutText: "Hello, I am a front-end developer using Javascript as a core technology. Recently, I decided to study ReactJS in my free time. Now I have a lot of this time, since I left my last job, where I did everything in a row and made no headway :)",
-        blockquote: "ReactJS beginner, HTML+CSS master, Na'Vi fan",
+        aboutText: "Hello, I am a front-end developer using Javascript as a core technology. Recently, I decided to study ReactJS in my free time. I can't imagine my life without coding. This is what I want to do all the time!",
+        blockquote: "ReactJS beginner, HTML+CSS master, Na'Vi fan :D",
     }
     return (  
         <section id="about">
@@ -23,8 +23,7 @@ const About = ({social}) => {
                 <div className="col s12 m8 contact">
                     <font>{staticInfo.aboutText}</font>
                     <blockquote>
-                    <small>{staticInfo.blockquote}</small>
-                        <i className="material-icons">accessible</i>
+                        <small>{staticInfo.blockquote}</small>
                     </blockquote>
                     <h5>{social.title}</h5>
                     <Social social={social}/>
