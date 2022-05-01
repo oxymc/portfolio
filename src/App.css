@@ -81,7 +81,6 @@ section {
 }
 h1, h2 {
   text-transform: uppercase;
-  white-space: nowrap;
   margin-bottom: 1em;
 }
 h4 {
@@ -114,6 +113,10 @@ footer .foFlex .foFlex {
 section#education font {
   font-size: 18px;
   font-weight: 500;
+}
+#way font {
+  width: max-content;
+  margin: auto;
 }
 
 @media screen and (max-width: 600px) {
