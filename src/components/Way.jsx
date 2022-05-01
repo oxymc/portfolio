@@ -3,7 +3,7 @@
 const Way = ({translate, isTranslated}) => {
     const title = "My way"
     const text = !isTranslated ?
-        "У самурая нет цели, есть только путь..." :
+        "У самурая немає цілі, є тільки шлях..." :
         'The samurai has no goal, there is only a way...'
     return (
         <section id="way">

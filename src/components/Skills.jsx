@@ -8,42 +8,54 @@ const Skills = () => {
                 <div className="col s12 m6">
                     <div className="section">
                         <h5>HTML5</h5>
-                        <p>Semantic layout, microdata</p>
+                        <small>semantic layout, microdata, webflow</small>
                     </div>
                     <div className="divider"></div>
                 </div>
                 <div className="col s12 m6">
                     <div className="section">
                         <h5>CSS3</h5>
-                        <p>Flexbox, Grid, SCSS, CSS Media</p>
+                        <small>Flexbox, Grid, SCSS, CSS @media</small>
                     </div>
                     <div className="divider"></div>
                 </div>        
                 <div className="col s12 m6">
                     <div className="section">
                         <h5>JavaScript</h5>
-                        <p>Native JS, JQuery</p>
+                        <small>vanilla JS, JQuery, ES6+</small>
                     </div>
                     <div className="divider"></div>
                 </div>
                 <div className="col s12 m6">
                     <div className="section">
-                        <h5>ReactJS [beginner]</h5>
-                        <p>Classes, Hooks, Routing</p>
+                        <h5>ReactJS <small>beginner</small></h5>
+                        <small>Classes, Hooks, Routing</small>
                     </div>
                     <div className="divider"></div>
                 </div>
                 <div className="col s12 m6">
                     <div className="section">
-                        <h5>PHP [beginner]</h5>
-                        <p>Yii</p>
+                        <h5>BEM</h5>
                     </div>
                     <div className="divider"></div>
                 </div>
                 <div className="col s12 m6">
                     <div className="section">
-                        <h5>SQL [beginner]</h5>
-                        <p>MySQL</p>
+                        <h5>TypeScript</h5>
+                    </div>
+                    <div className="divider"></div>
+                </div>
+                <div className="col s12 m6">
+                    <div className="section">
+                        <h5>GIT</h5>
+                        <small>github <small>+gh-pages</small>, gitlab, bitbucket</small>
+                    </div>
+                    <div className="divider"></div>
+                </div>
+                <div className="col s12 m6">
+                    <div className="section">
+                        <h5>REST API</h5>
+                        <small>JSON</small>
                     </div>
                     <div className="divider"></div>
                 </div>

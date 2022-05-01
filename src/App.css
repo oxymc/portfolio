@@ -22,10 +22,7 @@ main.dark, header.dark #nav-mobile, header.dark #nav-mobile li a {
   color: #fff;
   transition: .3s;
 }
-main.dark section:nth-child(even),
-main.dark img {
-  filter: grayscale(100%);
-}
+
 .foFlex {
   display: flex;
 }
@@ -70,6 +67,9 @@ i:hover, a:hover {
 }
 blockquote, small {
   color: #666;
+}
+.dark small {
+  color: #ccc;
 }
 font {
   width: 100%;
