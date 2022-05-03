@@ -49,7 +49,7 @@ img {
   width: max-content;
 }
 .contact .foFlex, footer .foFlex .foFlex {
-  gap: 10px;
+  gap: 2rem;
   width: max-content;
   max-width: 320px;
   justify-content: space-between;
