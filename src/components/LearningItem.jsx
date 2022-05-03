@@ -9,8 +9,7 @@ const progress = {
     },
     redux: {
         filled: "■".repeat(2),
-        empty: "□".repeat(8),
-        ico: "./redux.svg"
+        empty: "□".repeat(8)
     }
 }
 

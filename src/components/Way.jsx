@@ -11,7 +11,8 @@ const Way = ({translate, isTranslated}) => {
             <div className="container row center">
                 <h2>{title}</h2>     
                 <LearningItem />
-                <div className="col s12"> 
+                <div className="col s12">
+                    <i className="large material-icons">all_inclusive</i>
                     <font>{text}</font>
                 </div>
                 {!isTranslated ?
