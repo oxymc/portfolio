@@ -67,6 +67,7 @@ i:hover, a:hover {
 }
 blockquote, small {
   color: #666;
+  font-weight: normal;
 }
 .dark small {
   color: #ccc;
@@ -108,7 +109,28 @@ footer .foFlex .foFlex {
   padding: 40px 0;
 }
 #skills h5 {
+  display: flex;
   font-weight: 500;
+}
+#skills h5 .material-icons {
+  margin-top: 0;
+  margin-left: 5px;
+  margin-bottom: auto;
+}
+#skills h5 .material-icons.nomarginleft {
+  margin-left: 0;
+}
+.material-icons.smaller {
+  font-size: 60%;
+}
+.typescript { 
+  text-transform: uppercase;
+  font-size: 30%;
+  margin-bottom: auto;
+  margin-top: 0;
+  margin-left: 5px;
+  font-weight: bold;
+  line-height: 240%;
 }
 section#education font {
   font-size: 18px;
@@ -117,6 +139,26 @@ section#education font {
 #way font {
   width: max-content;
   margin: auto;
+  max-width: 100%;
+}
+#way .foFlex {
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.my_progress {
+  display: flex;
+  gap: 1rem;
+}
+.my_progress__graph {
+  color: #00796b;
+  font-weight: normal;
+  letter-spacing: -2px;
+}
+.my_progress__percent {
+  font-weight: normal;
 }
 
 @media screen and (max-width: 600px) {
