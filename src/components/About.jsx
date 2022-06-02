@@ -6,8 +6,8 @@ const About = ({social}) => {
         name: "Maxym Balagur",
         position: "Frontend Web Developer",
         photoPath: "./photo.jpg",
-        aboutText: "Hello, I am a front-end developer using Javascript as a core technology. Recently, I decided to study ReactJS in my free time. I can't imagine my life without coding. This is what I want to do all the time!",
-        blockquote: "HTML, SCSS, BEM, JavaScript, ES6+, JQuery, ReactJS, TypeScript, GIT, Webflow, Figma",
+        aboutText: "Hello, I am a front-end developer using Javascript as a core technology. Recently, I decided to study new frameworks in my free time. I can't imagine my life without coding. This is what I want to do all the time!",
+        blockquote: "HTML, SCSS, BEM, JavaScript, ES6+, JQuery, Alpine.js, ReactJS, TypeScript, GIT, Webflow, Figma",
     }
     return (  
         <section id="about">

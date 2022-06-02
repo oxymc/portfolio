@@ -1,15 +1,15 @@
 const learning = [
-    "React",
-    "Redux",
+    "Svelte",
+    "SvelteKit",
 ]
 const progress = {
     react: {
-        filled: "■".repeat(6),
-        empty: "□".repeat(4)
+        filled: "■".repeat(3),
+        empty: "□".repeat(7)
     },
     redux: {
-        filled: "■".repeat(2),
-        empty: "□".repeat(8)
+        filled: "■".repeat(0),
+        empty: "□".repeat(10)
     }
 }
 
@@ -32,7 +32,7 @@ const LearningItem = () => {
             <div className="col s12">
                 <div className="foFlex">
                     <div>
-                        {learning[1]} <span className="material-icons smaller">webhook</span>
+                        {learning[1]}
                     </div>
                     <div className="my_progress">
                         <div className="my_progress__graph">

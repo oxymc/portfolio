@@ -28,8 +28,20 @@ const Skills = () => {
                 </div>
                 <div className="col s12 m6">
                     <div className="section">
-                        <h5>React<span className="material-icons nomarginleft">javascript</span> <small><small>[in process]</small></small></h5>
+                        <h5>React<span className="material-icons nomarginleft">javascript</span> <small><small>[paused]</small></small></h5>
                         <small>Classes, Hooks, Routing</small>
+                    </div>
+                    <div className="divider"></div>
+                </div>
+                <div className="col s12 m6">
+                    <div className="section">
+                        <h5>Alpine<span className="material-icons nomarginleft">javascript</span></h5>
+                    </div>
+                    <div className="divider"></div>
+                </div>
+                <div className="col s12 m6">
+                    <div className="section">
+                        <h5>Svelte<span className="material-icons nomarginleft">javascript</span> <small><small>[in process]</small></small></h5>
                     </div>
                     <div className="divider"></div>
                 </div>
