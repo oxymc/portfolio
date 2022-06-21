@@ -3,13 +3,13 @@ const learning = [
     "SvelteKit",
 ]
 const progress = {
-    react: {
-        filled: "■".repeat(3),
-        empty: "□".repeat(7)
+    item_1: {
+        filled: "■".repeat(7),
+        empty: "□".repeat(3)
     },
-    redux: {
-        filled: "■".repeat(0),
-        empty: "□".repeat(10)
+    item_2: {
+        filled: "■".repeat(5),
+        empty: "□".repeat(5)
     }
 }
 
@@ -21,10 +21,10 @@ const LearningItem = () => {
                     <div>{learning[0]}<span className="material-icons">javascript</span></div>
                     <div className="my_progress">
                         <div className="my_progress__graph">
-                            {progress.react.filled + progress.react.empty}
+                            {progress.item_1.filled + progress.item_1.empty}
                         </div>
                         <div className="my_progress__percent">
-                            {progress.react.filled.length*10}%
+                            {progress.item_1.filled.length*10}%
                         </div>
                     </div>
                 </div>
@@ -36,10 +36,10 @@ const LearningItem = () => {
                     </div>
                     <div className="my_progress">
                         <div className="my_progress__graph">
-                            {progress.redux.filled + progress.redux.empty}
+                            {progress.item_2.filled + progress.item_2.empty}
                         </div>
                         <div className="my_progress__percent">
-                            {progress.redux.filled.length*10}%
+                            {progress.item_2.filled.length*10}%
                         </div>
                     </div>
                 </div>
